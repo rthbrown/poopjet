@@ -138,7 +138,7 @@ const IndexPage = () => {
       </p>
       <StaticImage
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="/src/image/happyRob.png"
+        src="/Users/rtbrown/Desktop/poopjet/src/images/happyRob.jpg"
       />
       <ul style={listStyles}>
         <li style={docLinkStyle}>
