@@ -1,4 +1,5 @@
 import * as React from "react"
+import { StaticImage } from 'gatsby-plugin-image'
 
 const pageStyles = {
   color: "#232129",
@@ -135,6 +136,10 @@ const IndexPage = () => {
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time. 😎
       </p>
+      <StaticImage
+        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+        src="image/happyRob.png"
+      />
       <ul style={listStyles}>
         <li style={docLinkStyle}>
           <a

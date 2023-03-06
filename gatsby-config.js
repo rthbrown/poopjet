@@ -4,6 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `poopjet`,
+    pathPrefix: "/poopjet",
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
